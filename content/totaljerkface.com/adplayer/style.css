@@ -1,0 +1,62 @@
+#content {
+    margin-left: 0px;
+    background-color: black;
+}
+
+#content, #adContainer {
+	position: absolute;
+    left: 40px;
+    width: 900px;
+    height: 500px;
+    top: 60px;
+}
+
+#contentElement {
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+#pauseButton, #playButton {
+  position: absolute;
+  top: 520px;
+  left: 52px;
+  cursor: pointer;
+  border: none;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  
+}
+
+#playButton {
+  background: url('http://img.totaljerkface.com/play2.svg');
+  display: none;
+}
+
+#pauseButton {
+	background: url('http://img.totaljerkface.com/play1.svg');
+}
+
+#muteButton, #unMuteButton {
+  position: absolute;
+  top: 520px;
+  left: 94px;
+  cursor: pointer;
+  border: none;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}
+
+#muteButton {
+  background: url('http://img.totaljerkface.com/volume1.svg');
+}
+
+#unMuteButton {
+	background: url('http://img.totaljerkface.com/volume2.svg');
+  	display: none;
+}
